@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 module buttonControl(
-	 input clock,
+	input clock,
     input reset,
     input button,
     output reg valid_vote
@@ -25,7 +25,7 @@ end
 always @(posedge clock)
 begin
     if(reset)
-        valid_vote <= 1'b1;
+        valid_vote <= 1'b0;
     else
     begin
         if (counter==10)

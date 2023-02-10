@@ -19,13 +19,13 @@ reg [30:0] counter;
 always @(posedge clk)
 begin
     if(reset)
-    counter <= 0;
-else if (valid_vote_casted)
-    counter <= counter +1;
-else if(counter != 0 & counter<10)
-    counter <= counter+1;
-else
-    counter <= 0;
+        counter <= 0;
+    else if (valid_vote_casted)
+        counter <= counter +1;
+    else if(counter != 0 & counter<10)
+        counter <= counter+1;
+    else
+        counter <= 0;
 end
 
 always @(posedge clk)
