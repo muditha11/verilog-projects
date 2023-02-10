@@ -1,0 +1,89 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Muditha\Desktop\verilog projects\voting machine\simulation\modelsim
+vbuttonControl
+!i10b 1
+!s100 UgY4<TZH0_^ONPkD[zI>@3
+Ik`QdLU?F68b@g@MHH8ofg3
+V=>:D4Vj7WCK2Ag96f;1D<1
+Z1 dC:\Users\Muditha\Desktop\verilog projects\voting machine\simulation\modelsim
+w1676005834
+8C:/Users/Muditha/Desktop/verilog projects/voting machine/buttonControl.v
+FC:/Users/Muditha/Desktop/verilog projects/voting machine/buttonControl.v
+L0 3
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1676006980.439000
+!s107 C:/Users/Muditha/Desktop/verilog projects/voting machine/buttonControl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Muditha/Desktop/verilog projects/voting machine|C:/Users/Muditha/Desktop/verilog projects/voting machine/buttonControl.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+C:/Users/Muditha/Desktop/verilog projects/voting machine} -O0
+nbutton@control
+vmodeControl
+IC@5J_S^3;mB=9c1GYf3bJ0
+Vk`nAH[<VefYLgYGJ]LB0_0
+R1
+w1676005860
+8C:/Users/Muditha/Desktop/verilog projects/voting machine/modeControl.v
+FC:/Users/Muditha/Desktop/verilog projects/voting machine/modeControl.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nmode@control
+!i10b 1
+!s100 5[aMA]E@B1KAjN[3T33`23
+!s85 0
+!s108 1676006980.379000
+!s107 C:/Users/Muditha/Desktop/verilog projects/voting machine/modeControl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Muditha/Desktop/verilog projects/voting machine|C:/Users/Muditha/Desktop/verilog projects/voting machine/modeControl.v|
+!s101 -O0
+vvoteLogger
+I:O8S9[aQH1EozI0c=fL_Z2
+VJZOJMlD6?US;FATz;4fYR0
+R1
+w1675945434
+8C:/Users/Muditha/Desktop/verilog projects/voting machine/voteLogger.v
+FC:/Users/Muditha/Desktop/verilog projects/voting machine/voteLogger.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nvote@logger
+!i10b 1
+!s100 Uh:DBhco`fm9h^n^AdV>z2
+!s85 0
+!s108 1676006980.319000
+!s107 C:/Users/Muditha/Desktop/verilog projects/voting machine/voteLogger.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Muditha/Desktop/verilog projects/voting machine|C:/Users/Muditha/Desktop/verilog projects/voting machine/voteLogger.v|
+!s101 -O0
+vvotingMachine
+IXz_`lRjXF=b:hLL23nHa_2
+VI<I]]ojfa4CGP@>_oO<]b3
+R1
+w1675954469
+8C:/Users/Muditha/Desktop/verilog projects/voting machine/votingMachine.v
+FC:/Users/Muditha/Desktop/verilog projects/voting machine/votingMachine.v
+L0 1
+R2
+r1
+31
+R3
+nvoting@machine
+R4
+!i10b 1
+!s100 EH=Sa3<XFhA]T>dIbbdFL2
+!s85 0
+!s108 1676006980.239000
+!s107 C:/Users/Muditha/Desktop/verilog projects/voting machine/votingMachine.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Muditha/Desktop/verilog projects/voting machine|C:/Users/Muditha/Desktop/verilog projects/voting machine/votingMachine.v|
+!s101 -O0

@@ -1,0 +1,194 @@
+# Reading D:/quartus/modelSim/modelsim_ase/tcl/vsim/pref.tcl 
+# do VM_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\quartus\modelSim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\quartus\modelSim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Muditha/Desktop/verilog\ projects/voting\ machine {C:/Users/Muditha/Desktop/verilog projects/voting machine/votingMachine.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module votingMachine
+# 
+# Top level modules:
+# 	votingMachine
+# vlog -vlog01compat -work work +incdir+C:/Users/Muditha/Desktop/verilog\ projects/voting\ machine {C:/Users/Muditha/Desktop/verilog projects/voting machine/voteLogger.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module voteLogger
+# 
+# Top level modules:
+# 	voteLogger
+# vlog -vlog01compat -work work +incdir+C:/Users/Muditha/Desktop/verilog\ projects/voting\ machine {C:/Users/Muditha/Desktop/verilog projects/voting machine/modeControl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module modeControl
+# 
+# Top level modules:
+# 	modeControl
+# vlog -vlog01compat -work work +incdir+C:/Users/Muditha/Desktop/verilog\ projects/voting\ machine {C:/Users/Muditha/Desktop/verilog projects/voting machine/buttonControl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module buttonControl
+# 
+# Top level modules:
+# 	buttonControl
+# 
+vsim work.votingMachine
+# vsim work.votingMachine 
+# Loading work.votingMachine
+# Loading work.buttonControl
+# Loading work.voteLogger
+# Loading work.modeControl
+add wave -position end  sim:/votingMachine/clk
+add wave -position end  sim:/votingMachine/reset
+add wave -position end  sim:/votingMachine/mode
+add wave -position end  sim:/votingMachine/button1
+add wave -position end  sim:/votingMachine/button2
+add wave -position end  sim:/votingMachine/button3
+add wave -position end  sim:/votingMachine/button4
+add wave -position end  sim:/votingMachine/led
+add wave -position end  sim:/votingMachine/anyValidVote
+force -freeze sim:/votingMachine/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/votingMachine/mode 0 0
+force -freeze sim:/votingMachine/button1 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/votingMachine/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/votingMachine/button2 0 0
+force -freeze sim:/votingMachine/button3 0 0
+force -freeze sim:/votingMachine/button4 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/votingMachine/button1 0 0
+run
+force -freeze sim:/votingMachine/button1 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
